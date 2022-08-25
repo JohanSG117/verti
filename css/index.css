@@ -1,0 +1,83 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700|Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+/* RESET - specificity (0,0,1) */
+
+:root {
+    --theme-color-red: #ff4486;
+    --theme-header-link-bg-active: #444;
+    --theme-header-link-bg-over: #FFF;
+    --theme-header-link-color-active: #fff;
+    --theme-header-link-color: #696969;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* GLOBALS specificity (0,n,*) */
+.homepage {
+    background: #dee0e3;
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.c-link {
+    text-decoration: none;
+    color: inherit
+}
+
+/* COMPONETS specificity (0,n,*) */
+/* header */
+.header {
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__wrapper--brand {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header__wrapper--navigation {}
+.header__brand {
+    display: inline-flex;
+    border-radius: 6px;
+    background-color: var(--theme-color-red);
+    color: #FFF;
+    font-family: 'Oleo Script';
+    font-size: 3.25rem;
+}
+.c-link {}
+.header__nav {
+    display: flex;
+    gap: 1.5rem;
+.header__link {
+    border-radius: 6px;
+    padding: 0.5rem 1.1rem;
+    font-weight: bold;
+    color: var(--theme-header-link-color);
+}
+.header__link:hover {
+    background-color: var(--theme-header-link-bg-over);
+}
+.header__link--active:hover,
+.header__link--active {
+    background-color: var(--theme-header-link-bg-active);
+    color: var(--theme-header-link-color-active);
+}
+.header__label {
+    font-weight: bold;
+    color: var(--theme-header-link-color);
+}
+/* SPECIFICATIONS specificity (n,*,*) */
