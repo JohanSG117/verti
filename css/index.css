@@ -38,6 +38,7 @@ body {
 /* COMPONETS specificity (0,n,*) */
 /* header */
 .header {
+    padding: 4.3rem 0 3rem;
 }
 .header__wrapper {
     display: flex;
@@ -52,11 +53,15 @@ body {
 .header__wrapper--navigation {}
 .header__brand {
     display: inline-flex;
+    padding: 0.85rem 0.7rem;
     border-radius: 6px;
     background-color: var(--theme-color-red);
     color: #FFF;
     font-family: 'Oleo Script';
     font-size: 3.25rem;
+    letter-spacing: 0.05em;
+    margin: 0;
+    line-height: 0.7;
 }
 .c-link {}
 .header__nav {
@@ -81,4 +86,15 @@ body {
     font-weight: bold;
     color: var(--theme-header-link-color);
 }
+
+/* starting */
+.starting {}
+.hero {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+.button {}
+.button__ok {}
+.button__more {}
 /* SPECIFICATIONS specificity (n,*,*) */
