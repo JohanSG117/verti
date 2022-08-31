@@ -147,4 +147,49 @@ body {
     padding: 31px 35px;
     line-height: 1;
 }
+
+/* presentation */
+
+.presentation {
+    padding: 50px;
+}
+
+.presentation__wrapper {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.presentation__img {
+    background-color: #fff;
+    display: block; 
+    gap: 25px;
+    padding: 0;
+    max-width: 430px;
+    border-radius: 6px;
+    overflow: hidden;   
+    margin-block-end: 24px;
+    margin-block-start: 24px;
+}
+
+.presentation__img p {
+    font-size: 17px;
+    font-weight: 300; 
+    padding: 0 35px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.presentation__img h3 {
+    font-size: 24px;
+    padding: 0 35px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.presentation__img__1,
+.presentation__img__2,
+.presentation__img__3 {    
+}
 /* SPECIFICATIONS specificity (n,*,*) */
